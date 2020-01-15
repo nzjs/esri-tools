@@ -1,0 +1,12 @@
+<!--nz title parcel association list-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-51569">
+    <SrcDataSource relativeToVRT="1">layer-51569.csv</SrcDataSource>
+	<GeometryType>wkbNone</GeometryType>
+        <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="title_no" src="title_no" type="String" width="20" />
+    <Field name="par_id" src="par_id" type="Integer" />
+    <Field name="source" src="source" type="String" width="8" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

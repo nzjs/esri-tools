@@ -1,0 +1,23 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-51975">
+    <SrcDataSource relativeToVRT="1">layer-51975.csv</SrcDataSource>
+	<SrcLayer>OGRGeoJSON</SrcLayer>
+    <LayerSRS>EPSG:2193</LayerSRS>
+    <GeometryType>wkbPoint</GeometryType>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="boundary" src="boundary" type="String" width="1" />
+    <Field name="type" src="type" type="String" width="4" />
+    <Field name="description" src="description" type="String" width="2048" />
+    <Field name="nod_id_end" src="nod_id_end" type="Integer" />
+    <Field name="nod_id_start" src="nod_id_start" type="Integer" />
+    <Field name="arc_radius" precision="12" src="arc_radius" type="Real" width="22" />
+    <Field name="arc_direction" src="arc_direction" type="String" width="4" />
+    <Field name="arc_length" precision="12" src="arc_length" type="Real" width="22" />
+    <Field name="pnx_id_created" src="pnx_id_created" type="Integer" />
+    <Field name="dcdb_feature" src="dcdb_feature" type="String" width="12" />
+    <Field name="id" src="id" type="Integer" />
+    <Field name="audit_id" src="audit_id" type="Integer" />
+    <Field name="se_row_id" src="se_row_id" type="Integer" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

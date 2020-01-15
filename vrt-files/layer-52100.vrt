@@ -1,0 +1,30 @@
+<!-- nz-walking-and-biking-tracks -->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-52100">
+    <SrcDataSource relativeToVRT="1">layer-52100.csv</SrcDataSource>
+    <GeometryType>wkbLineString</GeometryType>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <Field name="id" src="id" type="String" width="50" />
+    <Field name="name" src="name" type="String" width="254" />
+    <Field name="main_trail" src="main_trail" type="String" width="254" />
+    <Field name="locality" src="locality" type="String" width="254" />
+    <Field name="walk" src="walk" type="Integer" />
+    <Field name="bike" src="bike" type="Integer" />
+    <Field name="off_road_vehicle" src="off_road_vehicle" type="Integer" />
+    <Field name="mobility_access" src="mobility_access" type="String" width="7" />
+    <Field name="horse" src="horse" type="Integer" />
+    <Field name="dog_access" src="dog_access" type="String" width="20" />
+    <Field name="dog_weblink" src="dog_weblink" type="String" width="254" />
+    <Field name="conditions_of_use" src="conditions_of_use" type="String" width="254" />
+    <Field name="status" src="status" type="String" width="20" />
+    <Field name="description" src="description" type="String" width="254" />
+    <Field name="weblink" src="weblink" type="String" width="254" />
+    <Field name="image_link" src="image_link" type="String" width="254" />
+    <Field name="managed_by" src="managed_by" type="String" width="150" />
+    <Field name="data_supplier" src="data_supplier" type="String" width="150" />
+    <Field name="spatial_accuracy" src="spatial_accuracy" type="String" width="50" />
+    <Field name="date_modified" src="date_modified" type="DateTime" />
+    <Field name="local_authority" src="local_authority" type="String" width="254" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

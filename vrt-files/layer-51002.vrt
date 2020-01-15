@@ -1,0 +1,32 @@
+<!--nz aerial photo footprints-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-51002">
+    <SrcDataSource relativeToVRT="1">layer-51002.csv</SrcDataSource>
+	<GeometryType>wkbPolygon</GeometryType>
+    <LayerSRS>EPSG:2193</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />    <FID>sufi</FID>
+    <Field name="sufi" src="sufi" type="Integer" />
+    <Field name="survey" src="survey" type="String" width="10" />
+    <Field name="run" src="run" type="String" width="10" />
+    <Field name="photo_no" src="photo_no" type="String" />
+    <Field name="alternate_survey_name" src="alternate_survey_name" type="String" />
+    <Field name="camera" src="camera" type="String" width="50" />
+    <Field name="camera_sequence_no" src="camera_sequence_no" type="Integer" />
+    <Field name="nominal_focal_length" src="nominal_focal_length" type="Integer" />
+    <Field name="altitude" src="altitude" type="Integer" />
+    <Field name="scale" src="scale" type="Integer" />
+    <Field name="photocentre_lat" precision="4" src="photocentre_lat" type="Real" width="6" />
+    <Field name="photocentre_lon" precision="4" src="photocentre_lon" type="Real" width="7" />
+    <Field name="date" src="date" type="DateTime" />
+    <Field name="film" src="film" type="String" width="10" />
+    <Field name="film_sequence_no" src="film_sequence_no" type="Integer" />
+    <Field name="photo_type" src="photo_type" type="String" />
+    <Field name="format" src="format" type="String" />
+    <Field name="source" src="source" type="String" />
+    <Field name="physical_film_condition" src="physical_film_condition" type="String" />
+    <Field name="image_anomalies" src="image_anomalies" type="String" />
+    <Field name="scanned" src="scanned" type="String" width="1" />
+    <Field name="raw_filename" src="raw_filename" type="String" />
+    <Field name="released_filename" src="released_filename" type="String" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

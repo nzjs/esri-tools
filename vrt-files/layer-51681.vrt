@@ -1,0 +1,49 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-51681">
+    <SrcDataSource relativeToVRT="1">layer-51681.csv</SrcDataSource>
+    <GeometryType>wkbPoint</GeometryType>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>name_id</FID>
+    <Field name="name_id" src="name_id" type="Integer" />
+    <Field name="name" src="name" type="String" width="1024" />
+    <Field name="status" src="status" type="String" />
+    <Field name="feat_id" src="feat_id" type="Integer" />
+    <Field name="feat_type" src="feat_type" type="String" width="255" />
+    <Field name="nzgb_ref" src="nzgb_ref" type="String" />
+    <Field name="land_district" src="land_district" type="String" />
+    <Field name="crd_projection" src="crd_projection" type="String" />
+    <Field name="crd_north" src="crd_north" type="Real" />
+    <Field name="crd_east" src="crd_east" type="Real" />
+    <Field name="crd_datum" src="crd_datum" type="String" />
+    <Field name="crd_latitude" src="crd_latitude" type="Real" />
+    <Field name="crd_longitude" src="crd_longitude" type="Real" />
+    <Field name="info_ref" src="info_ref" type="String" />
+    <Field name="info_origin" src="info_origin" type="String" />
+    <Field name="info_description" src="info_description" type="String" />
+    <Field name="info_note" src="info_note" type="String" />
+    <Field name="feat_note" src="feat_note" type="String" />
+    <Field name="maori_name" src="maori_name" type="String" />
+    <Field name="cpa_legislation" src="cpa_legislation" type="String" />
+    <Field name="conservancy" src="conservancy" type="String" />
+    <Field name="doc_cons_unit_no" src="doc_cons_unit_no" type="String" />
+    <Field name="doc_gaz_ref" src="doc_gaz_ref" type="String" />
+    <Field name="treaty_legislation" src="treaty_legislation" type="String" />
+    <Field name="geom_type" src="geom_type" type="String" />
+    <Field name="accuracy" src="accuracy" type="String" />
+    <Field name="gebco" src="gebco" type="String" />
+    <Field name="region" src="region" type="String" />
+    <Field name="scufn" src="scufn" type="String" />
+    <Field name="height" src="height" type="String" />
+    <Field name="ant_pn_ref" src="ant_pn_ref" type="String" />
+    <Field name="ant_pgaz_ref" src="ant_pgaz_ref" type="String" />
+    <Field name="scar_id" src="scar_id" type="String" />
+    <Field name="scar_rec_by" src="scar_rec_by" type="String" />
+    <Field name="accuracy_rating" src="accuracy_rating" type="String" />
+    <Field name="desc_code" src="desc_code" type="String" />
+    <Field name="rev_gaz_ref" src="rev_gaz_ref" type="String" />
+    <Field name="rev_treaty_legislation" src="rev_treaty_legislation" type="String" />
+    <Field name="ref_point_X" src="ref_point_X" type="Real" />
+    <Field name="ref_point_Y" src="ref_point_Y" type="Real" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

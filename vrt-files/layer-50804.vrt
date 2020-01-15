@@ -1,0 +1,20 @@
+<!--nz property titles-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-50804">
+    <SrcDataSource relativeToVRT="1">layer-50804.csv</SrcDataSource>
+    <GeometryType>wkbPolygon</GeometryType>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="title_no" src="title_no" type="String" width="20" />
+    <Field name="status" src="status" type="String" width="4" />
+    <Field name="type" src="type" type="String" width="100" />
+    <Field name="land_district" src="land_district" type="String" width="100" />
+    <Field name="issue_date" src="issue_date" type="DateTime" />
+    <Field name="guarantee_status" src="guarantee_status" type="String" width="100" />
+    <Field name="estate_description" src="estate_description" type="String" width="4096" />
+    <Field name="number_owners" src="number_owners" type="String" width="20" />
+    <Field name="spatial_extents_shared" src="spatial_extents_shared" type="String" width="2" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

@@ -1,0 +1,17 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="table-51717">
+    <SrcDataSource relativeToVRT="1">table-51717.csv</SrcDataSource>
+	<SrcLayer>OGRGeoJSON</SrcLayer>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryType>wkbPoint</GeometryType>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>audit_id</FID>
+    <Field name="lgd_id" src="lgd_id" type="Integer" />
+    <Field name="par_id" src="par_id" type="Integer" />
+    <Field name="sequence" src="sequence" type="Integer" />
+    <Field name="part_affected" src="part_affected" type="String" width="4" />
+    <Field name="share" src="share" type="String" width="100" />
+    <Field name="audit_id" src="audit_id" type="Integer" />
+    <Field name="sur_wrk_id_crt" src="sur_wrk_id_crt" type="Integer" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

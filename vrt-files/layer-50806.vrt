@@ -1,0 +1,16 @@
+<!--nz property title owners-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-50806">
+    <SrcDataSource relativeToVRT="1">layer-50806.csv</SrcDataSource>
+	<GeometryType>wkbPolygon</GeometryType>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="owner" src="owner" type="String" width="250" />
+    <Field name="title_no" src="title_no" type="String" width="20" />
+    <Field name="title_status" src="title_status" type="String" width="4" />
+    <Field name="land_district" src="land_district" type="String" width="100" />
+    <Field name="part_ownership" src="part_ownership" type="String" width="2" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

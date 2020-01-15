@@ -1,0 +1,12 @@
+<!--south island pastoral leases-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-51572">
+    <SrcDataSource relativeToVRT="1">layer-51572.csv</SrcDataSource>
+	<GeometryType>wkbPolygon</GeometryType>
+    <LayerSRS>EPSG:2193</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="lease_name" src="lease_name" type="String" width="254" />
+    <Field name="id" src="id" type="Integer" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

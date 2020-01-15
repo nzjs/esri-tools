@@ -1,0 +1,12 @@
+<!--enc index-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-50813">
+    <SrcDataSource relativeToVRT="1">layer-50813.csv</SrcDataSource>
+	<GeometryType>wkbPolygon</GeometryType>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />-->
+    <Field name="Chart" src="Chart" type="String" width="254" />
+    <Field name="Title" src="Title" type="String" width="254" />
+    <Field name="ENC" src="ENC" type="String" width="254" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

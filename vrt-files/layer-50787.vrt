@@ -1,0 +1,24 @@
+<!--nz geodetic marks-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-50787">
+    <SrcDataSource relativeToVRT="1">layer-50787.csv</SrcDataSource>
+	<GeometryType>wkbPoint</GeometryType>
+    <LayerSRS>EPSG:2193</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="geodetic_code" src="geodetic_code" type="String" width="4" />
+    <Field name="current_mark_name" src="current_mark_name" type="String" width="100" />
+    <Field name="description" src="description" type="String" width="2048" />
+    <Field name="mark_type" src="mark_type" type="String" width="2048" />
+    <Field name="beacon_type" src="beacon_type" type="String" width="2048" />
+    <Field name="mark_condition" src="mark_condition" type="String" width="2048" />
+    <Field name="order" src="order" type="Integer" />
+    <Field name="land_district" src="land_district" type="String" width="100" />
+    <Field name="latitude" precision="12" src="latitude" type="Real" width="22" />
+    <Field name="longitude" precision="12" src="longitude" type="Real" width="22" />
+    <Field name="ellipsoidal_height" precision="12" src="ellipsoidal_height" type="Real" width="22" />
+    <Field name="shape_X" src="shape_X" type="Real" />
+    <Field name="shape_Y" src="shape_Y" type="Real" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

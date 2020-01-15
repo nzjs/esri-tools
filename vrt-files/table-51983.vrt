@@ -1,0 +1,19 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="table-51983">
+    <SrcDataSource relativeToVRT="1">table-51983.csv</SrcDataSource>
+	<SrcLayer>OGRGeoJSON</SrcLayer>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryType>wkbPoint</GeometryType>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="enc_id" src="enc_id" type="Integer" />
+    <Field name="status" src="status" type="String" width="4" />
+    <Field name="act_tin_id_crt" src="act_tin_id_crt" type="Integer" />
+    <Field name="act_id_crt" src="act_id_crt" type="Integer" />
+    <Field name="act_id_ext" src="act_id_ext" type="Integer" />
+    <Field name="act_tin_id_ext" src="act_tin_id_ext" type="Integer" />
+    <Field name="system_crt" src="system_crt" type="String" width="1" />
+    <Field name="system_ext" src="system_ext" type="String" width="1" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

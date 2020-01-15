@@ -1,0 +1,12 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-50781">
+    <SrcDataSource relativeToVRT="1">layer-50781.csv</SrcDataSource>
+    <GeometryType>wkbLineString</GeometryType>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="name" src="name" type="String" width="100" />
+    <Field name="name_utf8" src="name_utf8" type="String" width="100" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

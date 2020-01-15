@@ -1,0 +1,25 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="table-52018">
+    <SrcDataSource relativeToVRT="1">table-52018.csv</SrcDataSource>
+	<SrcLayer>OGRGeoJSON</SrcLayer>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryType>wkbPoint</GeometryType>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="cos_id" src="cos_id" type="Integer" />
+    <Field name="nod_id" src="nod_id" type="Integer" />
+    <Field name="ort_type_1" src="ort_type_1" type="String" width="4" />
+    <Field name="ort_type_2" src="ort_type_2" type="String" width="4" />
+    <Field name="ort_type_3" src="ort_type_3" type="String" width="4" />
+    <Field name="status" src="status" type="String" width="4" />
+    <Field name="sdc_status" src="sdc_status" type="String" width="1" />
+    <Field name="source" src="source" type="String" width="4" />
+    <Field name="value1" precision="12" src="value1" type="Real" width="22" />
+    <Field name="value2" precision="12" src="value2" type="Real" width="22" />
+    <Field name="value3" precision="12" src="value3" type="Real" width="22" />
+    <Field name="wrk_id_created" src="wrk_id_created" type="Integer" />
+    <Field name="cor_id" src="cor_id" type="Integer" />
+    <Field name="audit_id" src="audit_id" type="Integer" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

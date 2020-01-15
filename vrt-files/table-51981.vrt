@@ -1,0 +1,21 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="table-51981">
+    <SrcDataSource relativeToVRT="1">table-51981.csv</SrcDataSource>
+	<SrcLayer>OGRGeoJSON</SrcLayer>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryType>wkbPoint</GeometryType>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="adm_id" src="adm_id" type="Integer" />
+    <Field name="cos_id" src="cos_id" type="Integer" />
+    <Field name="status" src="status" type="String" width="4" />
+    <Field name="usr_id_exec" src="usr_id_exec" type="String" width="20" />
+    <Field name="adjust_datetime" src="adjust_datetime" type="DateTime" />
+    <Field name="description" src="description" type="String" width="100" />
+    <Field name="sum_sqrd_residuals" precision="12" src="sum_sqrd_residuals" type="Real" width="22" />
+    <Field name="redundancy" precision="12" src="redundancy" type="Real" width="22" />
+    <Field name="wrk_id" src="wrk_id" type="Integer" />
+    <Field name="audit_id" src="audit_id" type="Integer" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

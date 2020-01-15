@@ -1,0 +1,32 @@
+<!--li hydro.nz bathymetric data index public neg72-->
+<!--location information.nz bathymetric data index-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-53388">
+    <SrcDataSource relativeToVRT="1">layer-53388.csv</SrcDataSource>
+	<GeometryType>wkbPolygon</GeometryType>
+    <LayerSRS>EPSG:4326</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="chart_no" src="chart_no" type="String" width="50" />
+    <Field name="serial_no" src="serial_no" type="String" width="100" />
+    <Field name="surv_org" src="surv_org" type="String" width="254" />
+    <Field name="category" src="category" type="String" width="254" />
+    <Field name="surv_title" src="surv_title" type="String" width="254" />
+    <Field name="surv_start" src="surv_start" type="Date" />
+    <Field name="surv_end" src="surv_end" type="Date" />
+    <Field name="quality" src="quality" type="String" width="250" />
+    <Field name="scale" src="scale" type="Real" />
+    <Field name="surf_res" src="surf_res" type="Real" />
+    <Field name="sound_acc" src="sound_acc" type="Real" />
+    <Field name="line_space" src="line_space" type="Real" />
+    <Field name="vert_datum" src="vert_datum" type="Real" />
+    <Field name="sound_tech" src="sound_tech" type="String" width="100" />
+    <Field name="sss_tech" src="sss_tech" type="String" width="250" />
+    <Field name="hor_acc" src="hor_acc" type="Real" />
+    <Field name="hor_datum" src="hor_datum" type="String" width="250" />
+    <Field name="hor_tech" src="hor_tech" type="String" width="100" />
+    <Field name="surf_name" src="surf_name" type="String" width="254" />
+    <Field name="source_ref" src="source_ref" type="String" width="254" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

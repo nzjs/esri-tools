@@ -1,0 +1,21 @@
+<!--nz survey plans-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-50794">
+    <SrcDataSource relativeToVRT="1">layer-50794.csv</SrcDataSource>
+	<GeometryType>wkbMultiPoint</GeometryType>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="survey_reference" src="survey_reference" type="String" width="50" />
+    <Field name="land_district" src="land_district" type="String" width="100" />
+    <Field name="description" src="description" type="String" width="2048" />
+    <Field name="status" src="status" type="String" width="2048" />
+    <Field name="survey_date" src="survey_date" type="Date" />
+    <Field name="purpose" src="purpose" type="String" width="2048" />
+    <Field name="type" src="type" type="String" width="100" />
+    <Field name="datum" src="datum" type="String" width="10" />
+    <Field name="lodged_date" src="lodged_date" type="DateTime" />
+    <Field name="authorised_date" src="authorised_date" type="DateTime" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

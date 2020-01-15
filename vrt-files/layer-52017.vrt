@@ -1,0 +1,19 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-52017">
+    <SrcDataSource relativeToVRT="1">layer-52017.csv</SrcDataSource>
+	<SrcLayer>OGRGeoJSON</SrcLayer>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryType>wkbPoint</GeometryType>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="type" src="type" type="String" width="4" />
+    <Field name="name" src="name" type="String" width="100" />
+    <Field name="status" src="status" type="String" width="4" />
+    <Field name="other_details" src="other_details" type="String" width="100" />
+    <Field name="audit_id" src="audit_id" type="Integer" />
+    <Field name="se_row_id" src="se_row_id" type="Integer" />
+    <Field name="shape_X" src="shape_X" type="Real" />
+    <Field name="shape_Y" src="shape_Y" type="Real" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

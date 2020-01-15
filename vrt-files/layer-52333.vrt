@@ -1,0 +1,33 @@
+<!--napalis properties-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-52333">
+    <SrcDataSource relativeToVRT="1">layer-52333.csv</SrcDataSource>
+	<GeometryType>wkbPolygon</GeometryType>
+    <LayerSRS>EPSG:2193</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />    <FID>NaPALIS_ID</FID>
+    <Field name="STLength" src="STLength" type="Real" />
+    <Field name="Administered_Under" src="Administered_Under" type="String" width="50" />
+    <Field name="Disposal_Status" src="Disposal_Status" type="String" width="50" />
+    <Field name="Riverbed_Per_LG_Act" src="Riverbed_Per_LG_Act" type="String" width="3" />
+    <Field name="LIPS_ID" src="LIPS_ID" type="String" width="50" />
+    <Field name="Station_Name" src="Station_Name" type="String" width="50" />
+    <Field name="NaPALIS_ID" src="NaPALIS_ID" type="Integer" />
+    <Field name="End_Date" src="End_Date" type="DateTime" />
+    <Field name="STArea" src="STArea" type="Real" />
+    <Field name="Recorded_Area" src="Recorded_Area" type="Real" />
+    <Field name="Purpose" src="Purpose" type="String" width="50" />
+    <Field name="Address" src="Address" type="String" width="200" />
+    <Field name="Acquired_Under" src="Acquired_Under" type="String" width="50" />
+    <Field name="Tenure_Review_Status" src="Tenure_Review_Status" type="String" width="50" />
+    <Field name="Name" src="Name" type="String" width="200" />
+    <Field name="TR_Reporting_Category" src="TR_Reporting_Category" type="String" width="50" />
+    <Field name="Private_Ownership_Improvements" src="Private_Ownership_Improvements" type="Integer" />
+    <Field name="CPI_Number" src="CPI_Number" type="String" width="50" />
+    <Field name="Land_Use" src="Land_Use" type="String" width="50" />
+    <Field name="Physical_Description" src="Physical_Description" type="String" width="2000" />
+    <Field name="Legal_Description" src="Legal_Description" type="String" width="2000" />
+    <Field name="File_Reference" src="File_Reference" type="String" width="2000" />
+    <Field name="Land_Status_Confirmed" src="Land_Status_Confirmed" type="DateTime" />
+    <Field name="Start_Date" src="Start_Date" type="DateTime" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

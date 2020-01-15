@@ -1,0 +1,12 @@
+<!--nz survey affected parcels list pending approval-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-53422">
+    <SrcDataSource relativeToVRT="1">layer-53422.csv</SrcDataSource>
+	<GeometryType>wkbNone</GeometryType>
+        <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="par_id" src="par_id" type="Integer" />
+    <Field name="sur_wrk_id" src="sur_wrk_id" type="Integer" />
+    <Field name="action" src="action" type="String" width="12" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

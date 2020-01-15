@@ -1,0 +1,24 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="table-51702">
+    <SrcDataSource relativeToVRT="1">table-51702.csv</SrcDataSource>
+	<SrcLayer>OGRGeoJSON</SrcLayer>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryType>wkbPoint</GeometryType>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+-->
+         <FID>audit_id</FID>
+	 <Field name="__change__" src="__change__" type="String" width="20" />
+    <Field name="tin_id" src="tin_id" type="Integer" />
+    <Field name="id" src="id" type="Integer" />
+    <Field name="sequence" src="sequence" type="Integer" />
+    <Field name="att_type" src="att_type" type="String" width="4" />
+    <Field name="system_action" src="system_action" type="String" width="1" />
+    <Field name="act_id_orig" src="act_id_orig" type="Integer" />
+    <Field name="act_tin_id_orig" src="act_tin_id_orig" type="Integer" />
+    <Field name="ste_id" src="ste_id" type="Integer" />
+    <Field name="mode" src="mode" type="String" width="4" />
+    <Field name="flags" src="flags" type="String" width="4" />
+    <Field name="source" src="source" type="Integer" />
+    <Field name="audit_id" src="audit_id" type="Integer" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

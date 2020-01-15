@@ -1,0 +1,14 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="table-51982">
+    <SrcDataSource relativeToVRT="1">table-51982.csv</SrcDataSource>
+	<SrcLayer>OGRGeoJSON</SrcLayer>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryType>wkbPoint</GeometryType>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="prp_id" src="prp_id" type="Integer" />
+    <Field name="surname" src="surname" type="String" width="100" />
+    <Field name="other_names" src="other_names" type="String" width="100" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

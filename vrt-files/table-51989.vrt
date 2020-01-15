@@ -1,0 +1,29 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="table-51989">
+    <SrcDataSource relativeToVRT="1">table-51989.csv</SrcDataSource>
+	<SrcLayer>OGRGeoJSON</SrcLayer>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryType>wkbPoint</GeometryType>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="nod_id" src="nod_id" type="Integer" />
+    <Field name="status" src="status" type="String" width="4" />
+    <Field name="type" src="type" type="String" width="4" />
+    <Field name="desc" src="desc" type="String" width="2048" />
+    <Field name="category" src="category" type="String" width="4" />
+    <Field name="country" src="country" type="String" width="4" />
+    <Field name="beacon_type" src="beacon_type" type="String" width="4" />
+    <Field name="protection_type" src="protection_type" type="String" width="4" />
+    <Field name="maintenance_level" src="maintenance_level" type="String" width="4" />
+    <Field name="mrk_id_dist" src="mrk_id_dist" type="Integer" />
+    <Field name="disturbed" src="disturbed" type="String" width="1" />
+    <Field name="disturbed_date" src="disturbed_date" type="DateTime" />
+    <Field name="mrk_id_repl" src="mrk_id_repl" type="Integer" />
+    <Field name="wrk_id_created" src="wrk_id_created" type="Integer" />
+    <Field name="replaced" src="replaced" type="String" width="1" />
+    <Field name="replaced_date" src="replaced_date" type="DateTime" />
+    <Field name="mark_annotation" src="mark_annotation" type="String" width="50" />
+    <Field name="audit_id" src="audit_id" type="Integer" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

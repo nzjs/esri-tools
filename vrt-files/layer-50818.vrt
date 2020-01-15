@@ -1,0 +1,16 @@
+<!--nz road centre line electoral-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-50818">
+    <SrcDataSource relativeToVRT="1">layer-50818.csv</SrcDataSource>
+	<GeometryType>wkbLineString</GeometryType>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="name" src="name" type="String" width="100" />
+    <Field name="locality" src="locality" type="String" width="100" />
+    <Field name="territorial_authority" src="territorial_authority" type="String" width="255" />
+    <Field name="name_utf8" src="name_utf8" type="String" width="100" />
+    <Field name="locality_utf8" src="locality_utf8" type="String" width="100" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

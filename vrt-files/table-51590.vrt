@@ -1,0 +1,32 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="table-51590">
+    <SrcDataSource relativeToVRT="1">table-51590.csv</SrcDataSource>
+	<SrcLayer>OGRGeoJSON</SrcLayer>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryType>wkbPoint</GeometryType>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="par_id" src="par_id" type="Integer" />
+    <Field name="type" src="type" type="String" width="4" />
+    <Field name="title" src="title" type="String" width="1" />
+    <Field name="survey" src="survey" type="String" width="1" />
+    <Field name="status" src="status" type="String" width="4" />
+    <Field name="part_indicator" src="part_indicator" type="String" width="4" />
+    <Field name="maori_name" src="maori_name" type="String" width="100" />
+    <Field name="sub_type" src="sub_type" type="String" width="4" />
+    <Field name="appellation_value" src="appellation_value" type="String" width="60" />
+    <Field name="parcel_type" src="parcel_type" type="String" width="4" />
+    <Field name="parcel_value" src="parcel_value" type="String" width="60" />
+    <Field name="second_parcel_type" src="second_parcel_type" type="String" width="4" />
+    <Field name="second_prcl_value" src="second_prcl_value" type="String" width="60" />
+    <Field name="block_number" src="block_number" type="String" width="15" />
+    <Field name="sub_type_position" src="sub_type_position" type="String" width="4" />
+    <Field name="other_appellation" src="other_appellation" type="String" width="2048" />
+    <Field name="act_id_crt" src="act_id_crt" type="Integer" />
+    <Field name="act_tin_id_crt" src="act_tin_id_crt" type="Integer" />
+    <Field name="act_id_ext" src="act_id_ext" type="Integer" />
+    <Field name="act_tin_id_ext" src="act_tin_id_ext" type="Integer" />
+    <Field name="id" src="id" type="Integer" />
+    <Field name="audit_id" src="audit_id" type="Integer" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

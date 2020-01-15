@@ -1,0 +1,23 @@
+<!--XX-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-50779">
+    <SrcDataSource relativeToVRT="1">layer-50779.csv</SrcDataSource>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryType>wkbPoint</GeometryType>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+	<Field name="id" src="id" type="Integer" />
+    <Field name="rna_id" src="rna_id" type="Integer" />
+    <Field name="rcl_id" src="rcl_id" type="Integer" />
+    <Field name="address" src="address" type="String" width="126" />
+    <Field name="house_number" src="house_number" type="String" width="25" />
+    <Field name="range_low" src="range_low" type="Integer" />
+    <Field name="range_high" src="range_high" type="Integer" />
+    <Field name="road_name" src="road_name" type="String" width="100" />
+    <Field name="locality" src="locality" type="String" width="100" />
+    <Field name="territorial_authority" src="territorial_authority" type="String" width="225" />
+    <Field name="road_name_utf8" src="road_name_utf8" type="String" width="100" />
+    <Field name="address_utf8" src="address_utf8" type="String" width="126" />
+    <Field name="locality_utf8" src="locality_utf8" type="String" width="100" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

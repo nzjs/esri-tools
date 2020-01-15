@@ -1,0 +1,20 @@
+<!--nz primary road parcels-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-50796">
+    <SrcDataSource relativeToVRT="1">layer-50796.csv</SrcDataSource>
+	<GeometryType>wkbPolygon</GeometryType>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="appellation" src="appellation" type="String" width="2048" />
+    <Field name="affected_surveys" src="affected_surveys" type="String" width="2048" />
+    <Field name="parcel_intent" src="parcel_intent" type="String" width="100" />
+    <Field name="topology_type" src="topology_type" type="String" width="100" />
+    <Field name="statutory_actions" src="statutory_actions" type="String" width="4096" />
+    <Field name="land_district" src="land_district" type="String" width="100" />
+    <Field name="titles" src="titles" type="String" width="32768" />
+    <Field name="survey_area" precision="4" src="survey_area" type="Real" width="20" />
+    <Field name="calc_area" src="calc_area" type="Real" width="20" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

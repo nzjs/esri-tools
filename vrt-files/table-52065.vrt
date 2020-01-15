@@ -1,0 +1,20 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="table-52065">
+    <SrcDataSource relativeToVRT="1">table-52065.csv</SrcDataSource>
+	<SrcLayer>OGRGeoJSON</SrcLayer>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryType>wkbPoint</GeometryType>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="ett_id" src="ett_id" type="Integer" />
+    <Field name="share" src="share" type="String" width="100" />
+    <Field name="status" src="status" type="String" width="4" />
+    <Field name="share_memorial" src="share_memorial" type="String" width="17500" />
+    <Field name="act_tin_id_crt" src="act_tin_id_crt" type="Integer" />
+    <Field name="act_id_crt" src="act_id_crt" type="Integer" />
+    <Field name="executorship" src="executorship" type="String" width="4" />
+    <Field name="original_flag" src="original_flag" type="String" width="1" />
+    <Field name="system_crt" src="system_crt" type="String" width="1" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

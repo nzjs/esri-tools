@@ -1,0 +1,14 @@
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-51726">
+    <SrcDataSource relativeToVRT="1">layer-51726.csv</SrcDataSource>
+	<SrcLayer>OGRGeoJSON</SrcLayer>
+    <LayerSRS>EPSG:2193</LayerSRS>
+    <GeometryType>wkbPoint</GeometryType>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>audit_id</FID>
+    <Field name="major_grid" src="major_grid" type="String" width="4" />
+    <Field name="minor_grid" src="minor_grid" type="String" width="4" />
+    <Field name="se_row_id" src="se_row_id" type="Integer" />
+    <Field name="audit_id" src="audit_id" type="Integer" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

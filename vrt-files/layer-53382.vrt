@@ -1,0 +1,27 @@
+<!-- nz-roads-addressing -->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-53382">
+    <SrcDataSource relativeToVRT="1">layer-53382.csv</SrcDataSource>
+    <GeometryType>wkbLineString</GeometryType>
+    <LayerSRS>EPSG:4167</LayerSRS>
+    <GeometryField encoding="WKT" field="shape" reportSrcColumn="FALSE" />
+    <FID>road_id</FID>
+    <Field name="road_id" src="road_id" type="Integer" />
+    <Field name="geometry_class" src="geometry_class" type="String" width="40" />
+    <Field name="road_type" src="road_type" type="String" width="40" />
+    <Field name="road_name_class" src="road_name_class" type="String" width="40" />
+    <Field name="full_road_name" src="full_road_name" type="String" width="250" />
+    <Field name="road_name_label" src="road_name_label" type="String" width="250" />
+    <Field name="road_name_prefix" src="road_name_prefix" type="String" width="40" />
+    <Field name="road_name_body" src="road_name_body" type="String" width="100" />
+    <Field name="road_name_type" src="road_name_type" type="String" width="40" />
+    <Field name="road_name_suffix" src="road_name_suffix" type="String" width="40" />
+    <Field name="route_name_body" src="route_name_body" type="String" width="100" />
+    <Field name="route_name_number" src="route_name_number" type="Integer" />
+    <Field name="route_name_alpha" src="route_name_alpha" type="String" width="250" />
+    <Field name="route_name_suffix" src="route_name_suffix" type="String" width="40" />
+    <Field name="full_road_name_ascii" src="full_road_name_ascii" type="String" width="250" />
+    <Field name="road_name_label_ascii" src="road_name_label_ascii" type="String" width="250" />
+    <Field name="road_name_body_ascii" src="road_name_body_ascii" type="String" width="250" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>

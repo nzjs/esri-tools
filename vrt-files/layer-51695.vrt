@@ -1,0 +1,17 @@
+<!--nz title memorials list including mortgages leases easements-->
+<OGRVRTDataSource>
+  <OGRVRTLayer name="layer-51695">
+    <SrcDataSource relativeToVRT="1">layer-51695.csv</SrcDataSource>
+	<GeometryType>wkbNone</GeometryType>
+        <FID>id</FID>
+    <Field name="id" src="id" type="Integer" />
+    <Field name="title_no" src="title_no" type="String" width="20" />
+    <Field name="land_district" src="land_district" type="String" width="100" />
+    <Field name="memorial_text" src="memorial_text" type="String" width="18000" />
+    <Field name="current" src="current" type="String" width="2" />
+    <Field name="instrument_number" src="instrument_number" type="String" width="30" />
+    <Field name="instrument_lodged_datetime" src="instrument_lodged_datetime" type="DateTime" />
+    <Field name="instrument_type" src="instrument_type" type="String" width="100" />
+    <Field name="encumbrancees" src="encumbrancees" type="String" width="4096" />
+  </OGRVRTLayer>
+</OGRVRTDataSource>
